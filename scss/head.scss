@@ -1,23 +1,31 @@
 .header-menu{
-  padding: 15px 0 15px 120px;
+  padding: 5px 0 11px 120px;
   position: relative;
   position: abs;
+  max-width: 100%;
+  background: white;
+}
+*{
+  max-width: 100%;
 }
 .header-menu-bar a{
-  padding: 25px 15px 0 0;
   text-decoration: none;
   color: white;
 }
 .header-menu-bar{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 5fr 0.5fr 0.5fr;
+  grid-template-columns: auto auto auto auto auto 1fr auto auto;
+
 }
 .header-menu{
-    background: rgb(228, 225, 225);
   display: grid;
   height: 84px;
-  width: 94%;
+  width: 92.8%;
   font-family: 'Helvetica';
+}
+.logo-bmw{
+  width: 53px;
+  height: 53px;
 }
 .h-menu-img{
   display: grid;
@@ -46,11 +54,13 @@
 }
 
 .about-bmw{
-  width: 165px;
+  width: 137px;
 }
 .menu_link{
-    position: relative;
-
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: auto;
     p{
         color: #666;
     }
@@ -80,5 +90,5 @@
 }
 .locate{
     align-items: center;
-    right: 200px;
+    right: 225px;
 }

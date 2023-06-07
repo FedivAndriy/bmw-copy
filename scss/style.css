@@ -283,7 +283,7 @@ main {
 
 .xm-text {
   position: relative;
-  padding-top: 350px;
+  padding-top: 260px;
   text-align: left;
   padding-left: 100px;
   color: white;
@@ -351,7 +351,7 @@ main {
 
 .united24-text {
   position: relative;
-  padding-top: 840px;
+  padding-top: 675px;
   text-align: left;
   padding-left: 100px;
   color: white;
@@ -626,7 +626,7 @@ a {
     display: none;
   }
 }
-@media (min-width: 1100px) and (max-width: 1680px) {
+@media (min-width: 1100px) and (max-width: 1520px) {
   .header {
     height: 500px;
   }

@@ -4,6 +4,7 @@ body{
 html{
   text-rendering: optimizeSpeed; 
 }
+
 .main-h{
     width: 80%;
     height: auto;
@@ -45,7 +46,6 @@ html{
 }
 .header-info{
   p{
-    font-size: 1rem;
     line-height: .5rem;
     font-weight: 300;
     font-family: Arial, Helvetica, sans-serif;
@@ -57,10 +57,62 @@ html{
   width: 90%;
   background: #bbb;
 }
-.config-head-text, .config-head-text2, .main-config-btns{
-  margin-top: 15px
+.config-head-text, .config-head-text2, .main-config-btns, .models-search, .models-btn{
+  margin-top: 35px
 }
-
+.navigation li {
+  button{
+    background: white;
+    align-items: center;
+    border: 0;
+    border-radius: 3px;
+    color: #4d4d4d;
+    box-shadow: none;
+    cursor: pointer;
+    margin-bottom: 0;
+    min-height: 3.25rem;
+    min-width: 3.5rem;
+    padding: .75rem 0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  button:active, button:focus{
+    color: #262626;
+  }
+}
+.animate-navigation:before{
+  content: '';
+  width: 90%;
+  height: 4px;
+  background-color: #1c69d4;
+  position: absolute;
+  left: 0; bottom: -10px;
+  transform: scaleX(0);
+}
+.navigation{
+  display: grid;
+  background-color: #fff;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+  float: left;
+  left: 0;
+  list-style: none;
+  overflow: hidden;
+  width: auto;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+.config-head-text{
+  font-size: 1.25rem;
+}
+.config-head-text2{
+  font-size: 1.15rem
+}
+.container{
+  width: 80%;
+  margin: 0 auto
+}
 
 
 
